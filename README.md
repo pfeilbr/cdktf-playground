@@ -6,6 +6,8 @@ learn cdktf.  based on [Build AWS Infrastructure with TypeScript](https://learn.
 
 * cdktf generates tf hcl json
 * cdktf synth creates `cdktf.out`
+* can use tf apply within a `cdktf.out/stacks/*` directory to deploy
+* or let cdktf do both the synth and tf deploy
 
 ## Demo
 
